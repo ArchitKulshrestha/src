@@ -3,7 +3,11 @@
 }
 
 .brandname {
-  height: 60px;
+  height: 55px;
+}
+.brandname:hover {
+  scale: 1.1;
+  transition: 0.3s ease;
 }
 
 .sticky {
@@ -25,6 +29,9 @@
   padding-top: 80px;
   display: flex;
   justify-content: center;
+}
+.homediv {
+  padding-top: 15px;
 }
 .presenters {
   padding-top: 10%;
@@ -66,6 +73,7 @@
   justify-content: center;
   margin: 30px 0;
   height: 100px;
+  padding-top: 10px;
 }
 
 @media (max-width: 560px) {
@@ -86,7 +94,7 @@
 /* CSS */
 .button-18 {
   align-items: center;
-  background-color: #0a66c2;
+  background-color: #0a66c2cd;
   border: 0;
   border-radius: 10px;
   box-sizing: border-box;
@@ -106,6 +114,7 @@
   padding: 10px 40px;
   text-align: center;
   touch-action: manipulation;
+
   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
     box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
     color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
@@ -196,7 +205,7 @@ h4 {
   padding: 20px 0px;
   display: flex;
   width: 98%;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .testimonial-carousel .icon-container {
   position: relative;
@@ -295,9 +304,5 @@ h4 {
 @media (min-width: 700px) {
   .aboutimage img {
     width: 20%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-
-    padding: 5px;
   }
 }

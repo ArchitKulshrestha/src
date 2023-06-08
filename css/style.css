@@ -41,23 +41,14 @@ a:hover {
   text-decoration: none !important;
 }
 
-.home {
-  height: 100vh;
-  width: 100%;
-
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
   /* top: 2rem; */
   width: 100%;
-  background: #070609;
-  backdrop-filter: blur(2px);
+  background: #07060978;
+  backdrop-filter: blur(5px);
   padding: 10px 0;
 }
 .site-navbar.transparent {
@@ -143,13 +134,14 @@ a:hover {
 }
 
 .site-mobile-menu {
-  width: 300px;
+  width: 100%;
   position: fixed;
   text-align: center;
   right: 0;
   z-index: 200000000;
   padding-top: 30px;
-  background: #070609;
+  background: #07060978;
+  backdrop-filter: blur(10px);
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -235,7 +227,7 @@ a:hover {
   padding: 15px 20px;
   display: block;
   position: relative;
-  color: #5b605f;
+  color: #aeb2b1;
 }
 
 .site-mobile-menu .site-nav-wrap a:hover {
