@@ -20,7 +20,7 @@
   padding: 0 3px;
 }
 
-#home {
+#HOME {
   background: url(./assets/homebg.jpg) no-repeat;
   background-position: center;
   background-size: cover;
@@ -59,10 +59,12 @@
   text-align: center;
   color: white;
   margin: 30px 0;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 .text h1 {
-  font-size: 25px;
+  font-size: 38px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
 }
 .period {
   text-align: center;
@@ -73,7 +75,7 @@
   justify-content: center;
   margin: 30px 0;
   height: 100px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 @media (max-width: 560px) {
@@ -88,6 +90,9 @@
   }
   .text h1 {
     font-size: 25px;
+  }
+  .text h3 {
+    font-size: 18px;
   }
 }
 
@@ -172,16 +177,21 @@
   background: url(./assets/aboutcbg.jpg) no-repeat;
   object-fit: cover;
   object-position: center;
-  padding: 20px 0;
+  padding-bottom: 40px;
 }
 h4 {
-  font-size: 2em;
-  padding: 10px 0;
+  font-size: 3em;
+  padding: 30px 0;
   color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  /* background-image: url(./assets/abouttextbg.avif);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  color: transparent; */
 }
 @media (min-width: 768px) {
   h4 {
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 
@@ -209,7 +219,7 @@ h4 {
 }
 .testimonial-carousel .icon-container {
   position: relative;
-  padding: 5px 5px;
+  padding: 5px 15px;
   max-width: 40px;
   display: flex;
   flex-direction: column;
@@ -245,14 +255,14 @@ h4 {
   font-size: 1.5em;
 }
 .testimonial-carousel p {
-  font-size: 0.9em;
-  text-align: left;
+  font-size: 0.8em;
+  text-align: justify;
   color: #fff;
   padding: 5px 10px;
 }
 @media (min-width: 768px) {
   .testimonial-carousel p {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 
